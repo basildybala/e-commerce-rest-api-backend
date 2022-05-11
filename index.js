@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended:true}))
 //Route SetUp
 app.use('/api/users',userRoutes)
 app.use('/api/auth',authRoutes)
-
+app.use('/api/products',productRoutes)
 
 
 
