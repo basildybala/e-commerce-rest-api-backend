@@ -22,6 +22,8 @@ app.use(express.urlencoded({extended:true}))
 app.use('/api/users',userRoutes)
 app.use('/api/auth',authRoutes)
 app.use('/api/products',productRoutes)
+app.use('/api/carts',cartRoutes)
+app.use('/api/orders',orderRoutes)
 
 
 
